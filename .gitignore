@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+*.env
+
+# Large raw dataset files (keep repo lightweight)
+WISDM_ar_v1.1/
+*.tar.gz
+*.arff
+*.txt
+!README.md
+!requirements.txt
+
+# OS metadata
+Thumbs.db
+.DS_Store
